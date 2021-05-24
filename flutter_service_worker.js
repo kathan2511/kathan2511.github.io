@@ -4,18 +4,18 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "1cefaf2a48f42633ff4b37ffe0e9de96",
-"index.html": "cc57b687679daf68312374aff5ceb43d",
-"/": "cc57b687679daf68312374aff5ceb43d",
-"main.dart.js": "c51a9f0fee66ed053da02fba64482b57",
-"favicon.png": "61b493df9635f221d909421e8769acb0",
+"index.html": "369b4afc8dce7386164a0dd868460f36",
+"/": "369b4afc8dce7386164a0dd868460f36",
+"main.dart.js": "d5fd74a069bd1e36f60b296d3f47d562",
+"favicon.png": "a85d91039c67f8c72836267466046fa1",
 "icons/Icon-192.png": "002516a4b23f153b7ac2928347c377b1",
 "icons/Icon-512.png": "84780d2dfe97536ad1b68213079cc78b",
 "manifest.json": "3421cd00e17d6f742428a18cbf45709d",
-"assets/AssetManifest.json": "1d3f2b33a260df66b1e986cbf911286e",
-"assets/NOTICES": "975aa46ab85c38bfb2d92a778854072d",
-"assets/FontManifest.json": "53db916e40f5cd339f7e07ff4f1303a1",
+"assets/AssetManifest.json": "bb3d0529304c632dea02d423f202482b",
+"assets/NOTICES": "2bef45bf8f4e504239db37a3cbdb7ea3",
+"assets/FontManifest.json": "ee330b453adffc411cf5399c36204ecb",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/projects/medkit.png": "915431d4f438d5bc7c642fed8dbfb419",
 "assets/assets/projects/medkitB.png": "058d00d54c3ee8a953442d0cf3bfb866",
 "assets/assets/projects/flutter.png": "0b5a2f8d3f4d173805affaf9f84f6c87",
@@ -32,14 +32,15 @@ const RESOURCES = {
 "assets/assets/cui.png": "b5608c4d79345ca955f990a24a454554",
 "assets/assets/dsc.png": "bd954ceeeb42b91899ebe1c3b0d79850",
 "assets/assets/flutterIsl.png": "aaaeddae163a2e71636d9d494e16f2db",
+"assets/assets/logo.png": "0e345eefd3a310289a379c3bcc15f044",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
-"assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
-"assets/assets/fonts/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
-"assets/assets/services/app.png": "9d2da88edb7f550ef24874b306b4ae12",
-"assets/assets/services/rapid.png": "8d3ff9fbdddae77403af46662f011ee8",
-"assets/assets/services/blog.png": "5e1cbb2c67e2b8ea9ae4bcce0705d2a4",
-"assets/assets/services/open.png": "4a5996597d32b06d91183f0860c29aab",
-"assets/assets/services/ui.png": "3cf727247752b730a05f51fe0177036f",
+"assets/assets/fonts/Inter-Regular.ttf": "b396b0594c9620bc6ad91c5c92f6db30",
+"assets/assets/services/ios-icon.png": "64a4cf71d90f015a210c6ed181bd9c30",
+"assets/assets/services/webui-icon.png": "9077ef9f92b8cedef78782aeceba34fe",
+"assets/assets/services/ui-icon.png": "89dbd788559621dbe948a7b42c3c54f7",
+"assets/assets/services/prototyping-icon.png": "e1901bc7d77664c160b1f6e4735349ad",
+"assets/assets/services/android-icon.png": "604cc2ee5d000e3d928639d26bd39d4a",
+"assets/assets/services/web-icon.png": "2a143c74fc504bda85b940c0677cb2cf",
 "assets/assets/1.png": "b339c63d56fd0322bef76025f9584f44"
 };
 
@@ -58,7 +59,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
