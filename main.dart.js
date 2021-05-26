@@ -56896,7 +56896,7 @@ o=C.R.h(0,200)
 s=m*0.02
 r=n*0.02
 q=m*0.09
-return M.aK(p,M.aK(p,T.co(H.b([L.b3("\nPortfolio",B.bl(C.i,n*0.06,C.O,p,1),p,p),L.b3("Here is some of my selected work.",B.bl(C.R.h(0,600),r,C.O,p,1),p,p),M.aK(C.he,B.anQ(new U.W_(m,n),7,new V.ar(0,20,0,20),C.n,new U.W0(m)),p,p,n*0.75,p,p,p),T.aX(p,r,p)],t.t),C.a2,C.p,C.z),p,p,p,p,new V.ar(q,0,q,0),p),o,p,p,p,new V.ar(s,r,s,r),p)}}
+return M.aK(p,M.aK(p,T.co(H.b([L.b3("\nPortfolio",B.bl(C.i,n*0.06,C.O,p,1),p,p),L.b3("Here is some of my selected work.",B.bl(C.R.h(0,600),r,C.O,p,1),p,p),M.aK(C.he,B.anQ(new U.W_(m,n),6,new V.ar(0,20,0,20),C.n,new U.W0(m)),p,p,n*0.75,p,p,p),T.aX(p,r,p)],t.t),C.a2,C.p,C.z),p,p,p,p,new V.ar(q,0,q,0),p),o,p,p,p,new V.ar(s,r,s,r),p)}}
 U.W0.prototype={
 $2:function(a,b){return new Z.pr(this.a*0.015,C.bf,null)},
 $S:356}
@@ -56916,7 +56916,7 @@ s=C.R.h(0,600)
 r=L.b3("\nPortfolio",B.bl(o,m*0.06,C.ao,o,1),o,o)
 q=L.b3("Here is some of my selected work.\n\n",B.bl(o,o,C.bu,o,o),C.aE,o)
 p=P.aD(0,0,5)
-return M.aK(o,T.co(H.b([r,q,O.a8q(new F.W1(n.a.a,m),7,B.a8p(!0,P.aD(0,800,0),C.aJ,p,!1,!0,m*0.23)),T.aX(o,m*0.03,o)],t.t),C.D,C.p,C.z),s,o,o,o,o,o)}}
+return M.aK(o,T.co(H.b([r,q,O.a8q(new F.W1(n.a.a,m),6,B.a8p(!0,P.aD(0,800,0),C.aJ,p,!1,!0,m*0.23)),T.aX(o,m*0.03,o)],t.t),C.D,C.p,C.z),s,o,o,o,o,o)}}
 F.W1.prototype={
 $3:function(a,b,c){var s,r,q=this.a
 q=q<650?q*0.8:q*0.4
@@ -56938,7 +56938,7 @@ p=i*0.2
 o=j*0.4
 n=i*0.03
 m=t.t
-return M.aK(l,M.aK(l,T.co(H.b([L.b3("\nServices",B.bl(C.i,j*0.09,C.O,l,1),C.aD,l),T.aX(l,q,l),L.b3("I believe that good results come from close collaborations, joint ambitions and mutual respect. With a dedicated approach to each task at hand I use top-notch design and development techniques to make a positive impact - for our customers and on our shared surroundings.",A.iU(l,l,C.R.h(0,600),l,l,l,l,l,l,l,l,q,l,C.bV,l,l,!0,l,l,l,l,l,l,l),l,l),T.aX(l,j*0.075,l),T.co(H.b([T.cV(H.b([new B.hK(new O.f2($.mH[0],$.mI[0],o,p,C.k,C.i,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[1],$.mI[1],o,p,C.i,C.fp,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[2],$.mI[2],o,p,C.k,C.i,l),l)],m),C.D,C.p,C.al),T.aX(l,j*0.04,l),T.cV(H.b([new B.hK(new O.f2($.mH[3],$.mI[3],o,p,C.i,C.fp,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[4],$.mI[4],o,p,C.k,C.i,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[5],$.mI[5],o,p,C.i,C.fp,l),l)],m),C.D,C.cD,C.z)],m),C.D,C.p,C.z)],m),C.a2,C.p,C.z),l,l,l,l,new V.ar(r,0,r,0),l),l,l,l,l,new V.ar(k,s,k,s),l)}}
+return M.aK(l,M.aK(l,T.co(H.b([L.b3("\nServices",B.bl(C.i,j*0.09,C.O,l,1),C.aD,l),T.aX(l,q,l),L.b3("I believe that good results come from close collaborations, joint ambitions and mutual respect. With a dedicated approach to each task at hand I use top-notch design and development techniques to make a positive impact - for my customers and on our shared surroundings.",A.iU(l,l,C.R.h(0,600),l,l,l,l,l,l,l,l,q,l,C.bV,l,l,!0,l,l,l,l,l,l,l),l,l),T.aX(l,j*0.075,l),T.co(H.b([T.cV(H.b([new B.hK(new O.f2($.mH[0],$.mI[0],o,p,C.k,C.i,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[1],$.mI[1],o,p,C.i,C.fp,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[2],$.mI[2],o,p,C.k,C.i,l),l)],m),C.D,C.p,C.al),T.aX(l,j*0.04,l),T.cV(H.b([new B.hK(new O.f2($.mH[3],$.mI[3],o,p,C.i,C.fp,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[4],$.mI[4],o,p,C.k,C.i,l),l),T.aX(l,l,n),new B.hK(new O.f2($.mH[5],$.mI[5],o,p,C.i,C.fp,l),l)],m),C.D,C.cD,C.z)],m),C.D,C.p,C.z)],m),C.a2,C.p,C.z),l,l,l,l,new V.ar(r,0,r,0),l),l,l,l,l,new V.ar(k,s,k,s),l)}}
 F.vj.prototype={
 E:function(a,b){var s,r,q,p,o,n=null,m=t.w,l=b.D(m).f.a.b
 m=b.D(m).f
@@ -61774,9 +61774,9 @@ $.atx=H.b(["Flutter","Firebase","Python","Java","Swift"],t.i)
 $.ah2=[]
 $.mH=H.b(["assets/services/android-icon.png","assets/services/ios-icon.png","assets/services/web-icon.png","assets/services/ui-icon.png","assets/services/webui-icon.png","assets/services/prototyping-icon.png"],t.i)
 $.mI=H.b(["Android App \nDevelopment","iOS App \nDevelopment","Website \nDevelopment","Mobile \nDesign","Web \nDesign","Rapid \nPrototyping"],t.i)
-$.ah_=H.b(["assets/projects/shopping.png","assets/projects/furniture.jpg","assets/projects/COVID-19-Tracker.jpg","assets/projects/Travel-App.jpg","assets/projects/e-book.jpeg","assets/projects/flutter.png","assets/projects/white-blank-screens-mockup.png"],t.i)
-$.ah1=H.b(["Shopping Application","Furniture Application","COVID-19","Travel App","eBook Application","Login UI","Notes Application"],t.i)
-$.ah0=H.b(["Shopping application with minimal UI for one of my clients. Works as an excellent E-commerce platform for almost any industry.","An cross platform application for purchasing furniture online.","COVID-19 Tracker application that gives data about all active , cured , total and deceased cases from around India. Connected to an open-source API. Also it displays the latest covid news from around the world.","An app that is built on the concept of a community of people travelling to the same location. You can view nearby attractions and view nearby events and a lot more.","An eBook application build for avid readers. You can save all of your books in pdf formats locally and also continue reading right where you left off using the bookmark feature.","An attarctive and minimal login screen to attact users as soon as they enter your business - virtually.","A simple notes application to jot down ideas and daily tasks as soon as they pop-up in your head. All notes are saved locally on your device itself."],t.i)
+$.ah_=H.b(["assets/projects/shopping.png","assets/projects/furniture.jpg","assets/projects/COVID-19-Tracker.jpg","assets/projects/Travel-App.jpg","assets/projects/e-book.jpeg","assets/projects/white-blank-screens-mockup.png"],t.i)
+$.ah1=H.b(["Shopping Application","Furniture Application","COVID-19","Travel App","eBook Application","Notes Application"],t.i)
+$.ah0=H.b(["Shopping application with minimal UI for one of my clients. Works as an excellent E-commerce platform for almost any industry.","An cross platform application for purchasing furniture online.","COVID-19 Tracker application that gives data about all active , cured , total and deceased cases from around India. Connected to an open-source API. Also it displays the latest covid news from around the world.","An app that is built on the concept of a community of people travelling to the same location. You can view nearby attractions and view nearby events and a lot more.","An eBook application build for avid readers. You can save all of your books in pdf formats locally and also continue reading right where you left off using the bookmark feature.","A simple notes application to jot down ideas and daily tasks as soon as they pop-up in your head. All notes are saved locally on your device itself."],t.i)
 $.a7l=H.b(["Location","Phone","Email"],t.i)
 $.a7h=H.b(["Ahmedabad, Gujarat, India","(+91) 9173046560","kathan2511@gmail.com"],t.i)
 $.acz=null
